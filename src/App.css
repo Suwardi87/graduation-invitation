@@ -29,5 +29,8 @@ body {
 }
 
 .footer {
-  background: #dfe6e9;
+  background: linear-gradient(to bottom right, #f8f8fc, #00cec9); /* Tailwind CSS bg-gradient-to-br from-blue-100 to-blue-300 */
+  font-family: 'Segoe UI', sans-serif;
+  color: rgb(75, 85, 99); /* Tailwind CSS color text-gray-700 */
 }
+

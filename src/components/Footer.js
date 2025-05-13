@@ -1,10 +1,9 @@
 import React from 'react';
-import { FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="footer" data-aos="fade-up">
-      <p>Terima kasih atas kehadirannya <FaHeart color="red" /></p>
+      <p>Terima kasih atas kehadirannya</p>
     </footer>
   );
 };
