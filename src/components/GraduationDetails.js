@@ -4,6 +4,10 @@ import { FaUserGraduate, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 const GraduationDetails = () => {
   return (
     <section  className="py-20 bg-gradient-to-br from-white to-gray-100" data-aos="fade-up">
+      <audio autoPlay loop>
+        <source src="/graduation-music.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20">
         <h2 className="text-4xl font-extrabold text-gray-800 text-center mb-12 drop-shadow-md">
           🧑‍🎓 Detail Acara Wisuda
